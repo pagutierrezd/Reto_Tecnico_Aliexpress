@@ -14,7 +14,7 @@ public class ProductoUI {
             .locatedBy("//button[contains(@class, 'add-to-cart')]");
 
     public static final Target BTN_CARRITO = Target.the("Botón Dirigir Al Carrito")
-            .locatedBy("//a[@class='cart-summary-tocart']");
+            .locatedBy("//a[@href='//www.aliexpress.com/p/shoppingcart/index.html']");
     
     public ProductoUI() {
         throw new UnsupportedOperationException("Utility class");
